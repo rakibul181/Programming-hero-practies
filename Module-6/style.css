@@ -1,0 +1,49 @@
+td{
+    padding: 5px 10px;
+
+}
+ thead > td{
+    border: 1px solid black;
+}
+
+
+table thead{
+    font-weight: bold;
+}
+
+tr:nth-child(2n){
+    background-color: lightblue;
+}
+
+nav >ul{
+    display: flex;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul >li :hover{
+color:white;
+background-color: tomato;
+}
+nav >ul >li:hover >ul{
+    display: block;
+}
+.ddown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding: 0;
+    margin: 5px;
+}
+.ddown li{
+    padding: 10px;
+    margin: 10px 0px;
+}
+nav  li{
+    list-style-type: none; 
+    background-color: orangered;
+    padding: 5px 10px;
+    margin-right: 20px;
+}

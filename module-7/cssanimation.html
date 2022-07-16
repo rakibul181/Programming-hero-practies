@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>ANIMATION</title>
+    <style>
+        @keyframes sliding {
+            0%{
+                background-color: coral;
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                background-color: blueviolet;
+                top: 325px;
+                transform: scale(.75) ;
+            }
+            75%{
+                background-color: goldenrod;
+                top: -25px;
+                transform: scale(.5) 
+            }
+            100%{
+                background-color: crimson;
+                left: 700px;
+                top: 350px;
+                transform: scale(.25) 
+            }
+        }
+        .sage{
+            height: 400px;
+            width: 800px;
+            background-color: aquamarine;
+
+}
+    .ball{
+        height: 100px;
+        width: 100px;
+        background-color: coral;
+        border-radius: 50%;
+        position: relative;
+        animation: sliding 2s linear  0.5s  infinite   alternate ;
+        animation-play-state: running;
+    }
+    </style>
+</head>
+<body> 
+    <div class="sage">
+        <div class="ball"></div>
+    </div>
+    
+</body>
+</html>

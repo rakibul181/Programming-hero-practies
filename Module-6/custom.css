@@ -1,0 +1,22 @@
+:root{
+    --main-color: cadetblue;
+    --bottom-color: orangered;
+    --BORDER-COLOR: 2px solid black;
+    --mormal-padding: 50px 50px;
+}
+
+h1{
+    color: var(--main-color);
+
+}
+section{
+    color: var(--main-color);
+    border: var(--BORDER-COLOR);
+    padding: var(--mormal-padding)    ;
+}
+p{
+    color: calc(--main-color);
+}
+footer{
+    color:cadetblue;
+}
