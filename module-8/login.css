@@ -1,0 +1,33 @@
+nav span a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.login-form input{
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding: 5px 10px;
+}
+.login-form input[type="submit"]{
+    background-color:orange;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+
+}
