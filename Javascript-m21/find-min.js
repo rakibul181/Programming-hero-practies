@@ -11,3 +11,5 @@ function findMin(arr){
 
 const ary = [11,23,344,4,6,7,88,44,33,55,4,]
 console.log(findMin(ary))
+
+console.log(Math.abs(-45))
