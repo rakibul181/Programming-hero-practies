@@ -28,8 +28,8 @@
         </ul>
      </section>
 
-     <section>
-        <h1 id="plases">I want to vist</h1>
+     <section id="plases" class="ami bangalr gan gai">
+        <h1 >I want to vist</h1>
         <ul>
             <li class="important-plases">Sundorbon</li>
             <li class="important-plases">Bandorbon</li>
@@ -37,7 +37,7 @@
         </ul>
      </section>
     
-
+     <script src="js/style.js"></script>
     <script src="js/dom.js"></script>
     <script>
         const liCollection = document.getElementsByTagName('li')
@@ -50,13 +50,13 @@
         }
 
         const plases = document.getElementsByClassName("important-plases")
-        console.log(plases)
+        // console.log(plases)
         for(const plase of plases){
-            console.log(plase.innerText)
+            // console.log(plase.innerText)
         }
 
         const qselector = document.querySelectorAll('#plases li')
-        console.log(qselector)
+        // console.log(qselector)
     </script>
 </body>
 </html>

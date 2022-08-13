@@ -8,3 +8,8 @@ body{
 .Fruit{
     color: darkred;
 }
+
+.bg-lightgreen{
+    text-align: center;
+    color: darkorange;
+}
