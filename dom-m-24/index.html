@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,56 +8,63 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Aj Dom diya Jomm ber korbo</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tenetur ullam ipsum voluptatibus recusandae distinctio, porro totam. Provident, autem est aliquam quos nihil sequi quas ducimus ea unde! Iure accusamus velit omnis alias! Delectus et esse, aliquid, sint impedit quo ea facere nihil, laboriosam voluptas possimus cupiditate amet earum velit!</p>
-     <section>
-        <h1>Dom</h1>
-        <ul>
-            <li>Documant</li>
-            <li>Object </li>
-            <li>Model</li>
-        </ul>
-     </section>
+    <main id="main-cont" >
+        <h1>Aj Dom diya Jomm ber korbo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tenetur ullam ipsum voluptatibus recusandae
+            distinctio, porro totam. Provident, autem est aliquam quos nihil sequi quas ducimus ea unde! Iure accusamus
+            velit omnis alias! Delectus et esse, aliquid, sint impedit quo ea facere nihil, laboriosam voluptas possimus
+            cupiditate amet earum velit!</p>
+        <section>
+            <h1>Dom</h1>
+            <ul>
+                <li>Documant</li>
+                <li>Object </li>
+                <li>Model</li>
+            </ul>
+        </section>
 
-     <section>
-        <h1 id="Fruit" class=" Fruit">Fruits i Like</h1>
-        <ul class="ulist">
-            <li>Mango</li>
-            <li>Licu</li>
-            <li>Banana</li>
-        </ul>
-     </section>
+        <section>
+            <h1 id="Fruit" class=" Fruit">Fruits i Like</h1>
+            <ul class="ulist">
+                <li>Mango</li>
+                <li>Licu</li>
+                <li>Banana</li>
+            </ul>
+        </section>
 
-     <section id="plases" class="ami bangalr gan gai">
-        <h1 >I want to vist</h1>
-        <ul>
-            <li class="important-plases">Sundorbon</li>
-            <li class="important-plases">Bandorbon</li>
-            <li class="important-plases">japlog</li>
-        </ul>
-     </section>
-     <script src="js/append.js"></script>
-     <script src="js/style.js"></script>
-    <script src="js/dom.js"></script>
-    <script>
-        const liCollection = document.getElementsByTagName('li')
-        for(const li of liCollection){
-            // console.log(li)
-        }
-        const alHeading = document.getElementsByTagName('h1')
-        for(const h1 of alHeading){
-            // console.log(h1.innerHTML )
-        }
+        <section id="plases" class="ami bangalr gan gai">
+            <h1>I want to vist</h1>
+            <ul>
+                <li class="important-plases">Sundorbon</li>
+                <li class="important-plases">Bandorbon</li>
+                <li class="important-plases">japlog</li>
+            </ul>
+        </section>
+        <script src="js/append.js"></script>
+        <script src="js/style.js"></script>
+        <script src="js/dom.js"></script>
+        <script>
+            const liCollection = document.getElementsByTagName('li')
+            for (const li of liCollection) {
+                // console.log(li)
+            }
+            const alHeading = document.getElementsByTagName('h1')
+            for (const h1 of alHeading) {
+                // console.log(h1.innerHTML )
+            }
 
-        const plases = document.getElementsByClassName("important-plases")
-        // console.log(plases)
-        for(const plase of plases){
-            // console.log(plase.innerText)
-        }
+            const plases = document.getElementsByClassName("important-plases")
+            // console.log(plases)
+            for (const plase of plases) {
+                // console.log(plase.innerText)
+            }
 
-        const qselector = document.querySelectorAll('#plases li')
+            const qselector = document.querySelectorAll('#plases li')
         // console.log(qselector)
-    </script>
+        </script>
+    </main>
 </body>
+
 </html>
