@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJKE AMRA DOM EVENT KORBO</title>
+</head>
+
+<body>
+    <h1>AJKE AMRA DOM EVENT KORBO</h1>
+    <button onclick="document.body.style.backgroundColor ='green'">Click Me</button>
+    <button onclick="document.body.style.backgroundColor ='yellow'">Click Me again</button>
+    <button onclick="makeRed()">Make Me Red</button>
+    <button id="make-blue">Make Blue </button>
+    <button id="make-pink">Make Golden</button>
+    <script src="dom-event.js"></script>
+    <script>
+         document.getElementById('make-pink').addEventListener('click', function () {
+            document.body.style.backgroundColor = 'pink'
+        })
+
+        console.log(pink)
+    </script>
+
+</body>
+
+</html>
