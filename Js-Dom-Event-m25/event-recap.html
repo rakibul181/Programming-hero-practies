@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handelaer</title>
+</head>
+<body>
+
+
+    <h1>Event Handelaer</h1>
+    <section>
+        <p id="display-input">Defult Inputed Text</p>
+        <input id="input-text" type="text">
+        <button id="submit-input">Update</button>
+    </section>
+    <br>
+    <br>
+
+    <h2 id ='handle-text'>Text Handle by Nothing</h2>
+    <button id="on-click" onclick="onClick()">Handele Event By on Click</button>
+    <button id="add-event-listener">Handele Event By Add Event addEventListener</button>
+
+    <script>
+        function onClick(){
+            console.log('OnClick')
+            document.getElementById('handle-text').innerText='Text Handle by On Click'
+        }
+
+        document.getElementById("add-event-listener").addEventListener("click", function(){
+            document.getElementById("handle-text").innerText = "Handele Event By addEventListener"
+        })
+
+        document.getElementById('submit-input').addEventListener("click", function(){
+            const input = document.getElementById("input-text")
+            const inputtext= input.value
+             
+            document.getElementById("display-input").innerText = inputtext
+            input.value = ""
+        })
+
+    </script>
+</body>
+</html>
