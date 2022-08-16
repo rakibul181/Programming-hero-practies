@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more event</title>
+</head>
+<body>
+    <section>
+        <button id="btn1"> Event Button</button>
+        <button id="btn2"> Event Button</button>
+        <input  id="input1" type="text">
+    </section>
+    <script>
+        document.getElementById('btn1').addEventListener("mouseenter",function(){
+            console.log('Mouse Enter on Button')
+        })
+        document.getElementById('btn2').addEventListener("mouseover",function(){
+            console.log('Mouse Enter on Button')
+        })
+        document.getElementById('input1').addEventListener("focus",function(){
+            console.log('focus on input')
+        })
+        document.getElementById('input1').addEventListener("blur",function(){
+            console.log('blur on input')
+        })
+    </script>
+</body>
+</html> 
