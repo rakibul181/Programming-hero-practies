@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bobule</title>
+    <style>
+        body{
+            border: 2px solid red;
+        }
+        ul{
+            border: 2px solid green;
+
+        }
+        section{
+            border: 2px solid black;
+
+        }
+        #item-2{
+            border: 2px solid tomato;
+
+        }
+    </style>
+</head>
+<body id="body">
+    <section id="sec-cont">
+        <ul class="" id="allUl">
+            <li id="item-1">Lorem, ipsum dolor.</li>
+            <li id="item-2">Quis, magni ipsa.</li>
+            <li id="item-3">Tempora, dolorum molestias.</li>
+            <li id="item-4">Dolor, error similique.</li>
+        </ul>
+    </section>
+
+    <script>
+        document.getElementById('item-1').addEventListener('click', function(event){
+            console.log('Item-1 is clicked')
+            event.stopPropagation()
+        })
+        document.getElementById('item-1').addEventListener('click', function(event){
+            console.log('Item-1 is clicked')
+        })
+        document.getElementById('item-1').addEventListener('click', function(event){
+            console.log('Item-1 is clicked')
+        })
+        document.getElementById('item-1').addEventListener('click', function(event){
+            console.log('Item-1 is clicked')
+        
+        })
+        document.getElementById('item-1').addEventListener('click', function(event){
+            console.log('Item-1 is clicked')
+        
+        })
+        document.getElementById('item-2').addEventListener('click', function(event){
+            console.log('Item-2 is clicked')
+            event.stopImmediatePropagation()
+        })
+        document.getElementById('item-2').addEventListener('click', function(event){
+            console.log('Item-2 is clicked')
+        })
+        document.getElementById('item-2').addEventListener('click', function(event){
+            console.log('Item-2 is clicked')
+        })
+        document.getElementById('item-2').addEventListener('click', function(event){
+            console.log('Item-2 is clicked')
+        
+        })
+        document.getElementById('item-3').addEventListener('click', function(){
+            console.log('Item-3 is clicked')
+        })
+        document.getElementById('item-4').addEventListener('click', function(){
+            console.log('Item-4 is clicked')
+        })
+        document.getElementById('allUl').addEventListener('click', function(){
+            console.log('All Unorder List is clicked')
+        })
+        document.getElementById('sec-cont').addEventListener('click', function(){
+            console.log('section container is clicked')
+        })
+        document.getElementById('body').addEventListener('click', function(){
+            console.log('bodu is clicked')
+        })
+    </script>
+</body>
+</html>
